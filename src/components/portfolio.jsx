@@ -59,19 +59,19 @@ const data = [
 
 export const Portfolio = () => {
     return (
-        <section id="portfolio">
+        <div className="container" id="portfolio">
             <h2>Recent Projects</h2>
 
-            <div className="container portfolio__container">
+            <div className="portfolio-container">
                 {
                     data.map(({ id, image, title, github, liveDemo }) => {
                         return (
-                            <article key={id} className="portfolio__item">
-                                <div className="portfolio__item-image">
+                            <article key={id} className="portfolio-item">
+                                <div className="portfolio-item-image">
                                     <img src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
-                                <div className="portfolio__item-cta">
+                                <div className="portfolio-item-cta">
                                     <a href={github} target='_blank' className='btn' rel="noreferrer">Github</a>
                                     <a href={liveDemo} target='_blank' className='btn btn-primary' rel="noreferrer">Live Demo</a>
                                 </div>
@@ -81,6 +81,6 @@ export const Portfolio = () => {
                 }
             </div>
 
-        </section>
+        </div>
     )
 }

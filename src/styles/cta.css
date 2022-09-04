@@ -1,0 +1,10 @@
+.cta{
+    margin: 1rem 0;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.cta > a {
+    margin: 1rem;
+}

@@ -1,25 +1,19 @@
-header {
+#header {
+    display: flexbox;
     height: 880px;
     padding-top: 7rem;
     overflow: hidden;
 }
 
-.header__container {
+.header-container {
     text-align: center;
     height: 100%;
     position: relative;
 }
 
-/* -------------CTA--------------------- */
-.cta{
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
-}
-
 /* ---------------Socials--------------------- */
-.header__socials{
+.header-socials{
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +23,7 @@ header {
     bottom: 3rem;
 }
 
-.header__socials::after {
+.header-socials::after {
     content: "";
     width: 1px;
     height: 2rem;
@@ -52,10 +46,10 @@ header {
 }
 
 /* ------------------Scroll Down--------------------------- */
-.scroll__down{
+.scroll-down{
     position: absolute;
     right: -2.3rem;
-    bottom: 5rem;
+    bottom: 6rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 1rem;
@@ -65,9 +59,7 @@ header {
 /* ================Media Queries (md)=============== */
 
 @media screen and (max-width: 1024px) {
-    header{
-        /* height: 68vh; */
-    }
+  
   }
   
   
@@ -78,8 +70,8 @@ header {
         height: 100vh;
     }
   
-    .header__socials,
-    .scroll__down{
+    .header-socials,
+    .scroll-down{
         display: none;
     }
   }

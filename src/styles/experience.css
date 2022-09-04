@@ -1,10 +1,19 @@
-.experience__container {
+#experience{
+    margin-top: 4rem;
+}
+
+#experience > h2 {
+    padding: 2rem 0;
+    font-weight: 500;
+}
+
+.experience-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
-.experience__container > div {
+.experience-container > div {
     background: var(--color-bg-variant);
     padding: 2.5rem 5rem;
     border-radius: 0.75rem;
@@ -12,30 +21,30 @@
     transition: var(--transition);
 }
 
-.experience__container > div:hover {
+.experience-container > div:hover {
     background: transparent;
     border-color: var(--color-primary-varient);
     cursor: default;
 }
 
-.experience__container > div h3 {
+.experience-container > div h3 {
     text-align: center;
-    margin-bottom: 2rem;
     color: var(--color-primary);
 }
 
-.experience__content {
+.experience-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 1rem;
 }
 
-.experience__details{
+.experience-details{
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
 
-.experience__details-icon {
+.experience-details-icon {
     margin-top: 6px;
     color: var(--color-primary);
 }
@@ -44,17 +53,17 @@
 /* ================Media Queries (md)=============== */
 
 @media screen and (max-width: 1024px) {
-    .experience__container {
+    .experience-container {
         grid-template-columns: 1fr;
     }
 
-    .experience__container > div {
+    .experience-container > div {
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
     }
 
-    .experience__content {
+    .experience-content {
         padding: 1rem;
     }
     
@@ -64,11 +73,11 @@
   /* ================Media Queries (sm)=============== */
   
 @media screen and (max-width: 600px) {
-    .experience__container {
+    .experience-container {
         gap: 1rem;
     }
 
-    .experience__container > div {
+    .experience-container > div {
         width: 100%;
         padding:  2rem 1rem;
 

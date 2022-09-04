@@ -1,60 +1,60 @@
 import React from 'react';
 
-import '../styles/about.css';
-import ME from '../resources/me-about.jpg';
-
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
+
+import { CTA } from './CTA';
+
+import '../styles/about.css';
+import ME from '../resources/me-about.jpg';
+
 
 
 
 
 export const About = () => {
     return (
-        <section id='about'>
+        <div className="container" id='about'>
             <h2>About Me</h2>
 
-            <div className="container about__container">
-                <div className="about__me">
-                    <div className="about__me-image">
-                        <img src={ME} alt="About Image" />
+            <div className="about-container">
+                <div className="about-me">
+                    <div className="about-me-image">
+                        <img src={ME} alt="webpage-owner" />
                     </div>
                 </div>
 
-                <div className="about__content">
-                    <div className="about__cards">
-                        <article className='about__card'>
-                            <FaAward className='about__icon' />
+                <div className="about-content">
+                    <div className="about-cards">
+                        <article className='about-card'>
+                            <FaAward className='about-icon' />
                             <h5>Experience</h5>
-                            <small>1+ Years Working</small>
+                            <small>2+ Years Working</small>
                         </article>
 
-                        <article className='about__card'>
-                            <FiUsers className='about__icon' />
+                        <article className='about-card'>
+                            <FiUsers className='about-icon' />
                             <h5>Clients</h5>
                             <small>2  so far</small>
                         </article>
 
-                        <article className='about__card'>
-                            <VscFolderLibrary className='about__icon' />
+                        <article className='about-card'>
+                            <VscFolderLibrary className='about-icon' />
                             <h5>Projects</h5>
-                            <small>15+ Completed</small>
+                            <small>10+ Completed</small>
                         </article>
                     </div>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Ratione obcaecati a earum modi magnam esse expedita aliquam
-                        autem quibusdam est fugit, accusamus atque consequatur illum
-                        vero eum dicta. Tempore, voluptate?
-                    </p>
-
-                    <a href="#contact" className='btn btn-primary'>Let's Talk </a>
+                    <div className="about-text">
+                        <span>Hi there!</span> <br />
+                        I'm AbdulQuadir and I design websites for small bussinesses.
+                    </div>
+                    <CTA />
 
                 </div>
             </div>
 
-        </section>
+        </div>
     )
 }

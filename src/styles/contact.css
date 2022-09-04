@@ -1,37 +1,45 @@
-.container.contact__container{
-    width: 80%;
+#contact{
+    margin-top: 4rem;
+}
+
+#contact > h2 {
+    font-weight: 500;
+    padding: 2rem 0;
+}
+
+.contact-container {
     display: grid;
     grid-template-columns: 25% 60%;
     gap: 15%;
 }
 
-.contact__options {
+.contact-options {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;   
+    gap: 1.2rem;
 }
 
-.contact__option {
+.contact-option {
     background: var(--color-bg-variant);
-    padding: 1.2rem;
+    padding: 1.3rem;
     border-radius: 0.5rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
 }
 
-.contact__option:hover{
+.contact-option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
 
 }
 
-.contact__option-icon{
+.contact-option-icon {
     font-size: 2rem;
     margin-bottom: 0.1rem;
 }
 
-.contact__option a {
+.contact-option a {
     margin-top: 0.3rem;
     display: inline-block;
     font-size: 0.8rem;
@@ -46,39 +54,51 @@ form {
     gap: 1.2rem;
 }
 
-input, textarea {
-    color: white;
-    width: 100%;
-    padding: 1rem;
-    border-radius: 0.25rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant);
-    resize: none;
+form > button {
+    align-self: center;
 }
 
 
 
+input,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background: transparent;
+    border: 1px solid var(--color-primary-variant);
+    resize: none;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+textarea:focus::placeholder {
+    color: transparent;
+}
+
 
 /* ================Media Queries (md)=============== */
 @media screen and (max-width: 1024px) {
-    .container.contact__container {
+    .container.contact-container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 
 }
-   
-   
+
+
 /* ================Media Queries (sm)=============== */
 @media screen and (max-width: 600px) {
-    .container.contact__container {
+    .container.contact-container {
         width: var(--container-width-sm);
         gap: 2rem;
     }
-    
-    .contact__option {
+
+    .contact-option {
         width: 80%;
         margin: 0 auto;
     }
-   
+
 }

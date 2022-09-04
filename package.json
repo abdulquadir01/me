@@ -1,6 +1,6 @@
 {
-  "name": "portfolio_v2",
-  "version": "0.1.0",
+  "name": "portfolio_v1.2",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",

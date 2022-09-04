@@ -1,10 +1,12 @@
 import React from 'react';
 
 // swiper imports
-import { Pagination, Navigation, EffectFade } from 'swiper';
-import {Swiper, SwiperSlide} from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, EffectFade } from 'swiper';
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import 'swiper/css/effect-fade';
+
 
 import '../styles/testimonials.css';
 import avatar1 from '../resources/avatar1.webp';
@@ -47,33 +49,34 @@ const testimonialData = [
 
 
 
-export const Testimonials = ()=>{
-    return(
+export const Testimonials = () => {
+    return (
         <section id="testimonials">
-            <h2>Happy Customers</h2>
-            {/*  swiper modules */}
+            <h2>Some Happy Customers</h2>
+
             <Swiper className="container testimonials__container"
-                modules={[Navigation, EffectFade]} 
+                modules={[Navigation, EffectFade]}
                 navigation
-                effect='fade'
+                effect={'fade'}
                 speed={800}
                 slidesPerView={1}
-                loop 
+                loop
             >
                 {
-                    testimonialData.map(({avatar, name, review}, index) =>{
-                         return (
+                    testimonialData.map(({ avatar, name, review }, index) => {
+                        return (
                             <SwiperSlide key={index} className="testimonial">
-                            <div className="client__avatar">
-                                <img src={avatar} alt="avatar one" />
-                            </div>
-                            <h5 className='client__name'>{name}</h5>
-                            <small className="client__review">{review}</small>
-                        </SwiperSlide>
-                         )
+                                <div className="client__avatar">
+                                    <img src={avatar} alt={`avatar ${index}`} />
+                                </div>
+                                <h5 className='client__name'>{name}</h5>
+                                <small className="client__review">{review}</small>
+                            </SwiperSlide>
+                        )
                     })
-                }               
+                }
             </Swiper>
+
         </section>
     )
 }

@@ -34,21 +34,22 @@ export const About = () => {
                         </article>
 
                         <article className='about-card'>
-                            <FiUsers className='about-icon' />
-                            <h5>Clients</h5>
-                            <small>2  so far</small>
-                        </article>
-
-                        <article className='about-card'>
                             <VscFolderLibrary className='about-icon' />
                             <h5>Projects</h5>
                             <small>10+ Completed</small>
                         </article>
+                        
+                        {/* <article className='about-card'>
+                            <FiUsers className='about-icon' />
+                            <h5>Clients</h5>
+                            <small>2  so far</small>
+                        </article> */}
+                    
                     </div>
 
                     <div className="about-text">
                         <span>Hi there!</span> <br />
-                        I'm AbdulQuadir and I design websites for small bussinesses.
+                        I'm AbdulQuadir and I like building things for the web.
                     </div>
                     <CTA />
 

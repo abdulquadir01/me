@@ -35,14 +35,15 @@
 }
 
 .contact-option-icon {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 0.1rem;
 }
 
 .contact-option a {
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
     display: inline-block;
     font-size: 0.8rem;
+    display: none;
 }
 
 

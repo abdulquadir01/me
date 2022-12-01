@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../resources/resume.pdf';
+import resume from '../resources/AbdulQuadir_Resume.pdf';
 
 import '../styles/cta.css';
 

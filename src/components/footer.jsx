@@ -9,7 +9,7 @@ export const Footer = ()=>{
             <a href="#" className='footer-logo'>AbdulQuadir</a>
 
             <div className="footer-copyright">
-                <small> <strong> &copy; Abdul Quadir. All right reserved </strong></small>
+                <small> <strong> &copy; Abdul Quadir. All right reserved</strong></small>
             </div>
 
         </div>

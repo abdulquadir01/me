@@ -1,6 +1,6 @@
 {
-  "name": "portfolio_v1.2",
-  "homepage": "https://github.com/abdulquadir01/portfolio_v1.2",
+  "name": "portfolio_v2",
+  "homepage": "https://github.com/abdulquadir01/portfolio_v2",
   "version": "0.1.2",
   "private": true,
   "dependencies": {
@@ -22,7 +22,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    
+
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

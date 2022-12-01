@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/abdulquadir01/portfolio_v1.2/static/css/main.b122a0a0.css",
+    "main.css": "/abdulquadir01/portfolio_v1.2/static/css/main.f4c71ea9.css",
     "main.js": "/abdulquadir01/portfolio_v1.2/static/js/main.eef498f5.js",
     "static/js/787.ea51d316.chunk.js": "/abdulquadir01/portfolio_v1.2/static/js/787.ea51d316.chunk.js",
     "static/media/me-about.jpg": "/abdulquadir01/portfolio_v1.2/static/media/me-about.3a35aabdb21e9987af66.jpg",
@@ -14,12 +14,12 @@
     "static/media/pi5.webp": "/abdulquadir01/portfolio_v1.2/static/media/pi5.097353c4061f14e0faad.webp",
     "static/media/avatar1.webp": "/abdulquadir01/portfolio_v1.2/static/media/avatar1.9438b76e3703e626b1bb.webp",
     "index.html": "/abdulquadir01/portfolio_v1.2/index.html",
-    "main.b122a0a0.css.map": "/abdulquadir01/portfolio_v1.2/static/css/main.b122a0a0.css.map",
+    "main.f4c71ea9.css.map": "/abdulquadir01/portfolio_v1.2/static/css/main.f4c71ea9.css.map",
     "main.eef498f5.js.map": "/abdulquadir01/portfolio_v1.2/static/js/main.eef498f5.js.map",
     "787.ea51d316.chunk.js.map": "/abdulquadir01/portfolio_v1.2/static/js/787.ea51d316.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b122a0a0.css",
+    "static/css/main.f4c71ea9.css",
     "static/js/main.eef498f5.js"
   ]
 }

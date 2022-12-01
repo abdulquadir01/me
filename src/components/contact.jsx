@@ -35,18 +35,21 @@ export const Contact = () => {
             <div className="contact-container">
                 <div className="contact-options">
                     <div className="contact-option">
-                        <MdOutlineEmail className='contact-option-icon' />
-                        <a href="mailto:abdulquadir01@outlook.com" target="_blank" rel="noreferrer" alt="mail">Exchange mails!</a>
+                        <a href="mailto:abdulquadir01@outlook.com" target="_blank" rel="noreferrer" alt="mail">
+                            <MdOutlineEmail className='contact-option-icon' />
+                        </a>
                     </div>
 
                     <div className="contact-option">
-                        <BsWhatsapp className='contact-option-icon' />
-                        <a href="https://api.whatsapp.com/send?phone=+919334225839&text=Hello" target="_blank" rel="noreferrer" alt="whatsapp">How about chat!!</a>
+                        <a href="https://api.whatsapp.com/send?phone=+919334225839&text=Hello" target="_blank" rel="noreferrer" alt="whatsapp">
+                            <BsWhatsapp className='contact-option-icon' />
+                        </a>
                     </div>
 
                     <div className="contact-option">
-                        <SiLinkedin className='contact-option-icon' />
-                        <a href="https://www.linkedin.com/in/abdulquadir01/" target="_blank" rel="noreferrer" alt="linkedin">Connect on LinkedIn!!!</a>
+                        <a href="https://www.linkedin.com/in/abdulquadir01/" target="_blank" rel="noreferrer" alt="linkedin">
+                            <SiLinkedin className='contact-option-icon' />
+                        </a>
                     </div>
                 </div>
 

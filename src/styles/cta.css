@@ -1,10 +1,22 @@
 .cta{
-    margin: 1rem 0;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    margin: 1rem 0;
 }
 
 .cta > a {
     margin: 1rem;
+}
+
+
+/* ================Media Queries (sm)=============== */
+@media screen and (max-width: 600px) {
+    .cta{
+        display: flex;
+        gap: 0.2rem;
+        justify-content: center;
+        margin: 1rem 0;
+        font-size: 0.80rem;
+    }
 }

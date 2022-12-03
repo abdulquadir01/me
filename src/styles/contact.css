@@ -36,11 +36,7 @@
 
 .contact-option-icon {
     font-size: 2.5rem;
-    margin-bottom: 0.1rem;
-}
-
-.contact-option a {
-    display: inline-block;
+    /* margin-bottom: 0.1rem; */
 }
 
 
@@ -55,8 +51,6 @@ form {
 form > button {
     align-self: center;
 }
-
-
 
 input,
 textarea {
@@ -97,6 +91,19 @@ textarea:focus::placeholder {
     .contact-option {
         width: 80%;
         margin: 0 auto;
+
+        align-items: left;
+        background: var(--color-bg-variant);
+        padding: 1rem;
+        transition: var(--transition);
     }
 
+    .contact-option-icon {
+        font-size: 2.25rem;
+    }
+
+    
+    .contact-option:hover {
+       transition: none;
+    }
 }

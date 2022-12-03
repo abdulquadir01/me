@@ -30,3 +30,13 @@ nav a.active{
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+
+/* ================Media Queries (sm)=============== */
+  
+@media screen and (max-width: 600px) {
+    nav{
+        font-size: 2rem;
+        padding: 0.5rem 0.5rem;
+    }
+}

@@ -7,7 +7,7 @@ import { VscFolderLibrary } from 'react-icons/vsc';
 import { CTA } from './CTA';
 
 import '../styles/about.css';
-import ME from '../resources/me-about.jpg';
+import ME from '../resources/aboutme-img.jpg';
 
 
 
@@ -21,7 +21,7 @@ export const About = () => {
             <div className="about-container">
                 <div className="about-me">
                     <div className="about-me-image">
-                        <img src={ME} alt="webpage-owner" />
+                        <img src={ME} alt="developer_image" />
                     </div>
                 </div>
 
@@ -51,6 +51,7 @@ export const About = () => {
                         <span>Hi there!</span> <br />
                         I'm AbdulQuadir and I like building things for the web.
                     </div>
+                    
                     <CTA />
 
                 </div>

@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/2/static/css/main.b165cf32.css",
-    "main.js": "/2/static/js/main.c77fdd9b.js",
+    "main.css": "/2/static/css/main.4caca7e2.css",
+    "main.js": "/2/static/js/main.21ae037e.js",
     "static/js/787.1297335f.chunk.js": "/2/static/js/787.1297335f.chunk.js",
-    "static/media/me-about.jpg": "/2/static/media/me-about.3a35aabdb21e9987af66.jpg",
+    "static/media/aboutme-img.jpg": "/2/static/media/aboutme-img.3a35aabdb21e9987af66.jpg",
     "static/media/AbdulQuadir_Resume.pdf": "/2/static/media/AbdulQuadir_Resume.2d8579d159a61705cad6.pdf",
     "static/media/pi3.webp": "/2/static/media/pi3.5025f1a3e901c70e0d2c.webp",
     "static/media/pi4.webp": "/2/static/media/pi4.e1cfa55120837682ef73.webp",
@@ -14,12 +14,12 @@
     "static/media/pi5.webp": "/2/static/media/pi5.097353c4061f14e0faad.webp",
     "static/media/avatar1.webp": "/2/static/media/avatar1.9438b76e3703e626b1bb.webp",
     "index.html": "/2/index.html",
-    "main.b165cf32.css.map": "/2/static/css/main.b165cf32.css.map",
-    "main.c77fdd9b.js.map": "/2/static/js/main.c77fdd9b.js.map",
+    "main.4caca7e2.css.map": "/2/static/css/main.4caca7e2.css.map",
+    "main.21ae037e.js.map": "/2/static/js/main.21ae037e.js.map",
     "787.1297335f.chunk.js.map": "/2/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b165cf32.css",
-    "static/js/main.c77fdd9b.js"
+    "static/css/main.4caca7e2.css",
+    "static/js/main.21ae037e.js"
   ]
 }

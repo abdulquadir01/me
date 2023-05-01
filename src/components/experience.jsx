@@ -33,7 +33,7 @@ export const Experience = () => {
                         <article className="experience-details">
                             <BsPatchCheckFill className='experience-details-icon' />
                             <div>
-                                <h4>React Bootstrap</h4>
+                                <h4>Bootstrap</h4>
                             </div>
                         </article>
                         <article className="experience-details">
@@ -52,25 +52,25 @@ export const Experience = () => {
                         <article className="experience-details">
                             <BsPatchCheckFill className='experience-details-icon' />
                             <div>
-                                <h4>Spring</h4>
-                            </div>
-                        </article>
-                        <article className="experience-details">
-                            <BsPatchCheckFill className='experience-details-icon' />
-                            <div>
                                 <h4>Spring Boot</h4>
                             </div>
                         </article>
                         <article className="experience-details">
                             <BsPatchCheckFill className='experience-details-icon' />
                             <div>
-                                <h4>Node</h4>
+                                <h4>Spring MVC</h4>
                             </div>
                         </article>
                         <article className="experience-details">
                             <BsPatchCheckFill className='experience-details-icon' />
                             <div>
-                                <h4>Express</h4>
+                                <h4>Spring Data JPA</h4>
+                            </div>
+                        </article>
+                        <article className="experience-details">
+                            <BsPatchCheckFill className='experience-details-icon' />
+                            <div>
+                                <h4>Node / Express</h4>
                             </div>
                         </article>
                         <article className="experience-details">
@@ -82,25 +82,24 @@ export const Experience = () => {
                         <article className="experience-details">
                             <BsPatchCheckFill className='experience-details-icon' />
                             <div>
-                                <h4>MongoDB</h4>
-                            </div>
-                        </article>
-                        <article className="experience-details">
-                            <BsPatchCheckFill className='experience-details-icon' />
-                            <div>
-                                <h4>AWS</h4>
-                            </div>
-                        </article>
-                        <article className="experience-details">
-                            <BsPatchCheckFill className='experience-details-icon' />
-                            <div>
                                 <h4>REST APIs</h4>
+                            </div>
+                        </article>
+                        <article className="experience-details">
+                            <BsPatchCheckFill className='experience-details-icon' />
+                            <div>
+                                <h4>Docker & K8s</h4>
+                            </div>
+                        </article>
+                        <article className="experience-details">
+                            <BsPatchCheckFill className='experience-details-icon' />
+                            <div>
+                                <h4>MongoDB</h4>
                             </div>
                         </article>
                     </div>
 
                 </div>
-
 
             </div>
         </div>

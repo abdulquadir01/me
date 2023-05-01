@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
+// import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 import { CTA } from './CTA';
@@ -38,18 +38,12 @@ export const About = () => {
                             <h5>Projects</h5>
                             <small>10+ Completed</small>
                         </article>
-                        
-                        {/* <article className='about-card'>
-                            <FiUsers className='about-icon' />
-                            <h5>Clients</h5>
-                            <small>2  so far</small>
-                        </article> */}
                     
                     </div>
 
                     <div className="about-text">
                         <span>Hi there!</span> <br />
-                        I'm AbdulQuadir and I like building things for the web.
+                        I'm AbdulQuadir and I build things for the web.
                     </div>
                     
                     <CTA />

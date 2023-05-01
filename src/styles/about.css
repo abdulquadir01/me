@@ -39,7 +39,7 @@
 .about-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 8rem;
+    gap: 5rem;
 }
 
 .about-card {
@@ -113,13 +113,12 @@
 
     .about-cards {
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 5rem;
     }
 
     .about-card {
         padding: 1.25rem;
         transition: none;
-
     }
     
     .about-content {
@@ -129,4 +128,5 @@
     .about-content p {
         margin: 1.5rem 0;
     }
+    
 }

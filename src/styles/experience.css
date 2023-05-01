@@ -10,7 +10,7 @@
 .experience-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10rem;
+    gap: 2rem;
 }
 
 .experience-container > div {

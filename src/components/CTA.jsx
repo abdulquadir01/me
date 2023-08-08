@@ -1,13 +1,19 @@
-import React from 'react';
-import resume from '../resources/AbdulQuadir_Resume.pdf';
+import React from "react";
+import resume from "../resources/AbdulQuadir_Resume.pdf";
 
-import '../styles/cta.css';
+import "../styles/cta.css";
 
-export const CTA = () => {
+const CTA = () => {
   return (
     <div className="cta">
-        <a href={resume} download className="btn">Resume</a>
-        <a href="#contact" className='btn btn-primary'>Let's Connect</a> 
+      <a href={resume} download className="btn">
+        Resume
+      </a>
+      <a href="#contact" className="btn btn-primary">
+        Let's Connect
+      </a>
     </div>
-  )
-}
+  );
+};
+
+export default CTA;

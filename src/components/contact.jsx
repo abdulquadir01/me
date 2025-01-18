@@ -13,8 +13,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
+    emailjs.sendForm(
         "service_uvoavdt",
         "template_wga530o",
         formData.current,
@@ -33,7 +32,7 @@ const Contact = () => {
 
   return (
     <div className="container" id="contact">
-      <h2>Drop a message</h2>
+      <h2>Drop a Message</h2>
 
       <div className="contact-container">
         <div className="contact-options">
@@ -81,7 +80,7 @@ const Contact = () => {
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">
-            Send Message
+            Send
           </button>
         </form>
       </div>

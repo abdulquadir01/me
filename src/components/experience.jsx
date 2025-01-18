@@ -2,15 +2,13 @@ import { BsPatchCheckFill } from "react-icons/bs";
 
 import "../styles/experience.css";
 
-const frontendFrameworks = ["JavaScript", "ReactJs", "Bootstrap", "HTML & CSS"];
+const frontendFrameworks = ["JavaScript", "React", "Bootstrap", "HTML & CSS"];
 const backendFrameworks = [
   "Spring Boot",
-  "Spring MVC",
   "Spring Data",
-  "MySQL",
-  "RESTful APIs",
-  "NodeJs",
-  "ExpressJs",
+  "Spring Cloud",
+  "NodeJs/ExpressJs",
+  "MySQL/PostgreSQL",
   "MongoDB",
   "AWS",
   "DevOps",

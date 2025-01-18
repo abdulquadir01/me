@@ -35,7 +35,7 @@ const About = () => {
 
           <div className="about-text">
             <span>Hey there!</span> <br />
-            I build things to solve real world problems.
+            I build custom solutions for real world problems.
           </div>
           <CTA />
         </div>
